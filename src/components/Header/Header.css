@@ -1,0 +1,18 @@
+header a:after {
+  content: '';
+  position: absolute;
+  background-color: #ff3d61;
+  height: 3px;
+  left: 0%;
+  bottom: 3px;
+  transition: 0.4s;
+  width: 0%;
+}
+
+header a {
+  position: relative;
+}
+
+header a:hover:after {
+  width: 100%;
+}
